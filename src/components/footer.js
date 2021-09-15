@@ -1,7 +1,10 @@
 import styled from "styled-components";
-import { COLOR } from "../constants/style";
+import { COLOR, FONT } from "../constants/style";
 
 const FooterWrapper = styled.div`
+  font-family: ${FONT.text_en2};
+`;
+const Mainarea = styled.div`
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -34,8 +37,8 @@ const Copyright = styled.div`
 `;
 export default function Footer() {
   return (
-    <>
-      <FooterWrapper>
+    <FooterWrapper>
+      <Mainarea>
         <Column>
           <ColumnTitle>INFORMATION</ColumnTitle>
           <PageLink>購物需知</PageLink>
@@ -58,8 +61,8 @@ export default function Footer() {
           <PageLink>購物需知</PageLink>
           <PageLink>購物需知</PageLink>
         </Column>
-      </FooterWrapper>
+      </Mainarea>
       <Copyright>© 2021 Brand Name - All Rights Reserved.</Copyright>
-    </>
+    </FooterWrapper>
   );
 }

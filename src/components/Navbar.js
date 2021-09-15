@@ -3,11 +3,11 @@ import { COLOR, FONT } from "../constants/style";
 
 const NavbarWrapper = styled.div`
   width: 100%;
+  font-family: ${FONT.text_en2};
 `;
 const TopContainer = styled.div`
   color: ${COLOR["text-light"]};
   background: ${COLOR.warm_2};
-  font-family: font-family: ${FONT.logo_2};
 `;
 const Wrapper = styled.div`
   max-width: 1280px;
@@ -42,7 +42,7 @@ const LOGO = styled.div`
   cursor: pointer;
   color: #333;
   margin-right: 40px;
-  font-family: ${FONT.logo_4};
+  font-family: ${FONT.logo_ding2};
 `;
 const BTN = styled.a`
   text-decoration: none;

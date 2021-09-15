@@ -13,8 +13,11 @@ export const COLOR = {
 };
 
 export const FONT = {
-  logo_1: '"Caveat", cursive',
-  logo_2: '"Work Sans", sans-serif;',
-  logo_3: "'Bangers', cursive;",
-  logo_4: "'Arimo', sans-serif",
+  logo_jackie1: '"Caveat", cursive',
+  logo_jackie2: "'Permanent Marker', cursive;",
+  logo_janet1: "'Bangers', cursive;",
+  logo_ding1: "'Work Sans', sans-serif;",
+  logo_ding2: "'Arimo', sans-serif",
+  text_en: "'Glory', sans-serif;",
+  text_en2: "'Work Sans', sans-serif;",
 };

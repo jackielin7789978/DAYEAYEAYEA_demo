@@ -1,10 +1,35 @@
 import styled from "styled-components";
+import Carousel from "react-bootstrap/Carousel";
+import CarouselItem from "react-bootstrap/Carousel";
+import carousel1 from "../../pics/carousel1.jpg";
+import carousel2 from "../../pics/carousel2.jpg";
+import carousel3 from "../../pics/carousel3.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Page = styled.div`
-  height: 200vh;
   background: #f5f5f5;
+`;
+const Wrapper = styled.div`
+  width: 100%;
+  margin: 40px 0px;
 `;
 
 export default function Home() {
-  return <Page />;
+  return (
+    <Page>
+      <Wrapper>
+        <Carousel>
+          <Carousel.Item>
+            <img src={carousel1} className="d-block w-100" alt="1st" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={carousel2} className="d-block w-100" alt="2nd" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={carousel3} className="d-block w-100" alt="3rd" />
+          </Carousel.Item>
+        </Carousel>
+      </Wrapper>
+    </Page>
+  );
 }

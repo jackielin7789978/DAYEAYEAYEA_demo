@@ -42,7 +42,7 @@ const LOGO = styled.div`
   cursor: pointer;
   color: #333;
   margin-right: 40px;
-  font-family: ${FONT.logo_jackie1};
+  font-family: ${FONT.logo_ding2};
 `;
 const BTN = styled.a`
   text-decoration: none;
@@ -55,7 +55,7 @@ const BTN = styled.a`
   }
 `;
 
-export default function Navbar() {
+export default function Navbar2() {
   return (
     <NavbarWrapper>
       <TopContainer>

@@ -35,7 +35,7 @@ const Copyright = styled.div`
   padding: 20px 0;
   font-size: 14px;
 `;
-export default function Footer() {
+export default function Footer2() {
   return (
     <FooterWrapper>
       <Mainarea>

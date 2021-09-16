@@ -9,6 +9,7 @@ const NavbarWrapper = styled.div`
 const TopContainer = styled.div`
   color: ${COLOR["text-dark"]};
   position: relative;
+  padding: 20px 0px;
   z-index: 2;
   box-shadow: 0px 5px 10px 1px rgba(100, 100, 100, 0.2);
 `;
@@ -33,8 +34,9 @@ const Icon = styled.div`
 `;
 const BottomContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 0 160px;
   background: ${COLOR.warm_3};
 `;
 const LOGO = styled.div`
@@ -45,8 +47,8 @@ const LOGO = styled.div`
 const PageLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
-  padding: 8px 22px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 18px;
   color: ${COLOR["text-light"]};
   &:hover {
     color: ${COLOR.warm_4};

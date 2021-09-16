@@ -8,7 +8,7 @@ const NavbarWrapper = styled.div`
 `;
 const TopContainer = styled.div`
   color: ${COLOR["text-light"]};
-  background: ${COLOR.warm_2};
+  background: ${COLOR.warm_3};
 `;
 const Wrapper = styled.div`
   max-width: 1680px;
@@ -21,7 +21,7 @@ const Icons = styled.div`
   display: flex;
 `;
 const Icon = styled.div`
-  padding: 10px 20px;
+  padding: 4px 16px;
   cursor: pointer;
   transition: all 0.2s;
   &:hover {
@@ -35,7 +35,7 @@ const BottomContainer = styled.div`
   background: #fff;
   position: relative;
   z-index: 2;
-  padding: 20px 0 15px;
+  padding: 25px 0 20px;
   box-shadow: 0px 5px 10px 1px rgba(100, 100, 100, 0.2);
 `;
 const LOGO = styled.div`

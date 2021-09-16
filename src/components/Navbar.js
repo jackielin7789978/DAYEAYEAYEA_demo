@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLOR, FONT } from "../constants/style";
+import { Link } from "react-router-dom";
 
 const NavbarWrapper = styled.div`
   width: 100%;
@@ -44,7 +45,7 @@ const LOGO = styled.div`
   margin-right: 40px;
   font-family: ${FONT.logo_jackie1};
 `;
-const BTN = styled.a`
+const PageLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   padding: 8px 22px;
@@ -69,12 +70,14 @@ export default function Navbar() {
       </TopContainer>
       <BottomContainer>
         <LOGO>DAYEAYEAYEA</LOGO>
-        <BTN>所有商品</BTN>
-        <BTN>秋季精選</BTN>
-        <BTN>個人用品</BTN>
-        <BTN>廚房餐具</BTN>
-        <BTN>文具雜貨</BTN>
-        <BTN>戶外用品</BTN>
+        <PageLink to="/1">所有商品</PageLink>
+        <PageLink to="/1">秋季精選</PageLink>
+        <PageLink to="/1">個人用品</PageLink>
+        <PageLink to="/1">廚房餐具</PageLink>
+        <PageLink to="/1">文具雜貨</PageLink>
+        <PageLink to="/1">戶外用品</PageLink>
+        <PageLink to="/1">首頁一版</PageLink>
+        <PageLink to="/2">首頁二版</PageLink>
       </BottomContainer>
     </NavbarWrapper>
   );

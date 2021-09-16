@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Carousel from "react-bootstrap/Carousel";
-import CarouselItem from "react-bootstrap/Carousel";
 import carousel1 from "../../pics/carousel1.jpg";
 import carousel2 from "../../pics/carousel2.jpg";
 import carousel3 from "../../pics/carousel3.jpg";
@@ -11,7 +10,7 @@ const Page = styled.div`
 `;
 const Wrapper = styled.div`
   width: 100%;
-  margin: 40px 0px;
+  margin: 0px;
 `;
 
 export default function Home() {

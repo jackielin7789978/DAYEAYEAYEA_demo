@@ -3,14 +3,13 @@ import { COLOR, FONT } from "../constants/style";
 
 const FooterWrapper = styled.div`
   font-family: ${FONT.text_en2};
+  background: ${COLOR.warm_1};
 `;
 const Mainarea = styled.div`
   display: flex;
   justify-content: center;
   padding: 20px;
-  background: ${COLOR.warm_1};
   color: ${COLOR["text-light"]};
-  box-shadow: 2px 2px 12px 5px rgba(100, 100, 100, 0.2);
 `;
 const Column = styled.div`
   padding: 20px 40px;
@@ -29,7 +28,6 @@ const PageLink = styled.a`
   cursor: pointer;
 `;
 const Copyright = styled.div`
-  background: ${COLOR.warm_1};
   color: ${COLOR["text-light"]};
   text-align: center;
   padding: 20px 0;

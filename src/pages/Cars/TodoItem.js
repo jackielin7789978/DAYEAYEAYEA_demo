@@ -6,7 +6,16 @@ import {
   FaRegEdit,
   FaRegTrashAlt,
 } from "react-icons/fa";
-
+const TodoCard = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background: #041856;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position: relative;
+`;
 const TodoContent = styled.div`
   margin-left: 20px;
   margin-top: -3px;
@@ -77,8 +86,10 @@ export default function TodoItem({
 
   return (
     <TodoCard data-todo-id={todo.id}>
-      <h1>yoyoyo~~Hello hello</h1>
-      <h1>yoyoyo~~Hello hello</h1>
+
+      <h1>yoyoyo~~Hello hellohahahhaaha</h1>
+ 
+
       <CheckIcon onClick={handleTroggleClick}>
         {todo.isDone ? <FaCheckCircle /> : <FaRegCircle />}
       </CheckIcon>

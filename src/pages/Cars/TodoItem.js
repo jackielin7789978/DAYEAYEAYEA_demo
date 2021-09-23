@@ -78,6 +78,7 @@ export default function TodoItem({
   return (
     <TodoCard data-todo-id={todo.id}>
       <h1>yoyoyo~~Hello hello</h1>
+      <h1>yoyoyo~~Hello hello</h1>
       <CheckIcon onClick={handleTroggleClick}>
         {todo.isDone ? <FaCheckCircle /> : <FaRegCircle />}
       </CheckIcon>
